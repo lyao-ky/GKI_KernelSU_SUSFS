@@ -274,7 +274,7 @@ jobs:
 
           # Remove check_defconfig
           sed -i 's/check_defconfig//' ./common/build.config.gki
-          sed -i '$s|echo "\$res"|echo "-android12-9-KSUnxet+susfs-54fw"|' ./common/scripts/setlocalversion
+          sed -i '$s|echo "\$res"|echo "-android12-9-susfs-❤️54fw❤️"|' ./common/scripts/setlocalversion
           
       - name: Build the Kernel
         run: |
